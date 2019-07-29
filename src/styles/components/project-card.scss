@@ -1,0 +1,92 @@
+@import "../style-utils/variables";
+
+.repo {
+    margin: 0 12px 16px 0;
+    width: 391px;
+    height: 117px;
+    box-sizing: border-box;
+    border: 1px solid #d1d5da;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 16px;
+    word-wrap: break-word;
+
+    &:hover {
+        animation: ease-in-out 0.5s card;
+    }
+
+    &-item {
+        display: flex;
+        text-align: left;
+        flex-direction: row; 
+        word-wrap: break-word;
+
+        .icon {
+            margin-top: 3px;
+            margin-right: 8px;
+            color: #586069;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+
+    &-title {
+        color: $description;
+        font-size: 14px;
+        line-height: 21px;
+
+        &-link {
+            color: $repo-title;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: auto;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &-description {
+        margin: 8px 0 16px 0;
+        color: $subText;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    &-add {
+        color: $subText;
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0;
+
+        &-block {
+            display: inline-block;
+        }
+
+        &-color {
+            position: relative;
+            display: inline-block;
+            margin-right: 4px;
+            height: 12px;
+            width: 12px;
+            top: 1px;
+            border-radius: 50%;
+
+            &-js {
+                background-color: $js;
+            }
+
+            &-ts {
+                background-color: $ts;
+            }
+        }
+
+        &-lang {
+            line-height: 15px;
+            color: #586069;
+        }
+    }
+}

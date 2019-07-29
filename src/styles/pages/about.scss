@@ -1,0 +1,11 @@
+@import "../style-utils/variables.scss";
+
+.container {
+    h1 {
+        font-size: $header-font-size;
+    }
+
+    .text {
+        font-size: $description-font-size;
+    }
+}

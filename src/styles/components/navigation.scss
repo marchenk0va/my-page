@@ -1,0 +1,65 @@
+@import '../style-utils/variables';
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 30%;
+
+    &-item {
+        padding: 20px;
+    }
+
+    &-home {
+        text-decoration: none;
+        font-weight: 600;
+        color: $pink;
+        margin-right: 28px;
+
+        &-active{
+            &-light {
+                color: #fff;
+            }
+
+            &-dark {
+                color: #000;
+            }
+        }
+
+        &:hover {
+            color: rgba(248, 139, 139, 0.726);
+        }
+    }
+
+    &-link {
+        padding: 8px 10px;
+        text-decoration: none;
+        
+        &-light {
+            color: #dfdfdf;
+            
+            &:hover {
+                color: rgb(155, 155, 155);
+            }
+        }
+
+        &-dark {
+            color: #000;
+
+            &:hover {
+                color: rgba(0,0,0,.6);
+            }
+        }
+
+        &:hover {
+            border-bottom: 2.4px solid $pink;
+        }
+    }
+
+    &-theme {
+        padding: 5px;
+        border-radius: 3px;
+        background-color: #fff;
+    }
+}
