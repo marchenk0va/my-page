@@ -6,7 +6,7 @@ import "../styles/components/project-card.scss"
 const ProjectCard = ({ data }) => {
   const repoLink = `https://github.com/marchenk0va/${data.title}`
   const addColor =
-    data.language == "JavaScript" ? "repo-add-color-js" : "repo-add-color-ts"
+    data.language === "JavaScript" ? "repo-add-color-js" : "repo-add-color-ts"
   return (
     <div className="repo">
       <div className="repo-item repo-title">

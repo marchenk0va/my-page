@@ -1,8 +1,8 @@
-Personal static website running on Gatsby and React
+Personal static website running on Gatsby and React.
 
-## Gatsby ?
+## Gatsby
 
-For static pages it's perfect
+Perfect for static pages like this one
 
 https://www.gatsbyjs.org
 

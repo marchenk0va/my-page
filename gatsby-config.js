@@ -3,7 +3,7 @@ module.exports = {
     title: `Personal Website`,
     description: `My personal static website, built with Gatsby and React`,
     author: `Mariia Marchenkova`,
-    siteUrl: 'https://mariamar.netlify.com'
+    siteUrl: 'https://www.iammariia.com'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
