@@ -6,9 +6,15 @@ export default [
     language: "TypeScript",
   },
   {
-    id: 1,
+    id: 2,
     title: "my-page",
     description: "Personal static website running on Gatsby and React",
+    language: "JavaScript",
+  },
+  {
+    id: 3,
+    title: "clock",
+    description: "A clock with stopwatch on ReactJS Hooks",
     language: "JavaScript",
   },
 ]
